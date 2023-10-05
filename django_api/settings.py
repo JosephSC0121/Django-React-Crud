@@ -85,8 +85,8 @@ DATABASES = {
         'NAME': 'django_app',
         'USER': 'root',
         'PASSWORD': 'joseph',
-        'HOST': 'localhost',  # O la dirección de tu servidor MySQL
-        'PORT': '3306',       # Puerto por defecto de MySQL
+        'HOST': 'localhost',  
+        'PORT': '3306',    
     }
 }
 
