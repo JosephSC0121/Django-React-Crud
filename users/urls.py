@@ -6,7 +6,7 @@ from users import views
 router = routers.DefaultRouter()
 router.register(r'users', views.UsersView, 'users')
 router.register(r'role', views.RoleView, 'role')
-router.register(r'permission', views.RoleView, 'permission')
+router.register(r'permission', views.PermissionView, 'permission')
 
 urlpatterns = [
     path('users/', include(router.urls)), 
